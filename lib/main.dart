@@ -9,11 +9,14 @@ import 'package:fashion_world/pages/cart_details.dart';
 import 'package:fashion_world/pages/users_container.dart';
 import 'package:fashion_world/pages/categories.dart';
 import 'package:fashion_world/services/product_repository.dart';
+import 'package:mpesa_flutter_plugin/mpesa_flutter_plugin.dart';
 
 import 'pages/cart_details.dart';
 
 
 void main() {
+  MpesaFlutterPlugin.setConsumerKey('wHOLxJtdnnnEmDW882AwZ7yjaKZSE3S3');
+  MpesaFlutterPlugin.setConsumerSecret('VJGJEltGlG1sAQO6');
   runApp(MyApp());
 }
 
