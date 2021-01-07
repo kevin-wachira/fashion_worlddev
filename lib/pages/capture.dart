@@ -29,7 +29,7 @@ class capture extends StatelessWidget {
                 ),
               ),
 
-
+,
               Padding(padding: EdgeInsets.symmetric(vertical: 10.0,horizontal: 20.0),
                 child: Column(children: [
                   TextField(
